@@ -1,0 +1,16 @@
+create user admin password 'admin123';
+
+ALTER USER admin WITH SUPERUSER;
+
+helm repo add hashicorp https://helm.releases.hashicorp.com
+helm install vault hashicorp/vault --set server.dev.enabled=true
+kubectl get po
+kubectl exec -it vault-0 -- sh
+
+export VAULT_ADDR='http://127.0.0.1:8200'
+export VAULT_TOKEN="root"
+
+vault secrets enable database
+
+disable sslmode from your postgres server
+

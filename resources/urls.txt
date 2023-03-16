@@ -1,0 +1,14 @@
+https://developer.hashicorp.com/vault/docs/secrets/databases/postgresql
+
+https://www.youtube.com/watch?v=qyBHFVPghFE
+https://github.com/visa2learn/spring-cloud-vault-db-cred-rotation
+
+https://github.com/viratbiz/vault-fetch-dynamic-db-secrets
+
+https://spring.io/guides/gs/vault-config/
+
+https://stackoverflow.com/questions/63878533/vault-error-server-gave-http-response-to-https-client
+
+https://springhow.com/spring-boot-banner-generator/
+
+
