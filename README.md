@@ -68,7 +68,7 @@
 
 <img src="/resources/vault_mysql_1.png">
 
-# From Java 17 to Java 8
+# From Java 17 to Java 8 | see branch jdk8
 
 ### Change these :
 
