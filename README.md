@@ -68,7 +68,7 @@
 
 <img src="/resources/vault_mysql_1.png">
 
-# From Java 17 to Java 8
+# From Java 17 to Java 8 | see branch jdk8
 
 ### Change these :
 
@@ -87,3 +87,8 @@
 #### imports 
 
     jakarta to javax
+
+## Issue
+If I change the structure of the database I have to do a drop cascade to all the tables in db.
+Because update isn't working correctly.
+Or I may replace update with create-drop which is bad!

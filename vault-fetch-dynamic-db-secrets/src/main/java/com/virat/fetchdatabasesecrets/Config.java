@@ -16,7 +16,7 @@ import org.springframework.vault.core.lease.event.*;
 
 import com.zaxxer.hikari.HikariDataSource;
 
-import jakarta.annotation.PostConstruct;
+import javax.annotation.PostConstruct;
 
 @Configuration
 public class Config {
