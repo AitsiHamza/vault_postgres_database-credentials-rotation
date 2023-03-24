@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/vault-fetch-dynamic-db-secrets/pom.xml" />
+        <option value="$PROJECT_DIR$/vault-credential-rotation-mysql/vault-credential-rotation-mysql/pom.xml" />
       </list>
     </option>
   </component>

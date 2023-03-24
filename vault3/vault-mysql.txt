@@ -1,0 +1,17 @@
+export VAULT_ADDR='http://0.0.0.0:8200'
+export VAULT_TOKEN="root"
+vault secrets enable database
+
+vault write database/config/my-mysql-database \
+    plugin_name=mysql-database-plugin \
+    connection_url="{{username}}:{{password}}@tcp(host.docker.internal:3306)/" \
+    allowed_roles="my-mysql-role" \
+    username="root" \
+    password="enset2022"
+
+vault write database/roles/my-mysql-role \
+    db_name=my-mysql-database \
+    creation_statements="CREATE USER '{{name}}'@'%' IDENTIFIED BY '{{password}}';GRANT ALL PRIVILEGES ON *.* TO '{{name}}'@'%' WITH GRANT OPTION;GRANT PROXY ON ''@'%' TO '{{name}}'@'%' WITH GRANT OPTION;" \
+    default_ttl="1h" \
+    max_ttl="24h"
+

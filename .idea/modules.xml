@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/vault-fetch-dynamic-db-secrets/fetch-database-secrets.iml" filepath="$PROJECT_DIR$/vault-fetch-dynamic-db-secrets/fetch-database-secrets.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vault db credentials rotation.iml" filepath="$PROJECT_DIR$/.idea/vault db credentials rotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vault-credential-rotation-mysql/vault-credential-rotation-mysql/vault-credential-rotation-mysql.iml" filepath="$PROJECT_DIR$/vault-credential-rotation-mysql/vault-credential-rotation-mysql/vault-credential-rotation-mysql.iml" />
     </modules>
   </component>
 </project>
