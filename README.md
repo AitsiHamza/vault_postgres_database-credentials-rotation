@@ -6,7 +6,7 @@
 
 <img src="/resources/1.jpg">
 
-``instead i should use local_pgdb``
+``instead i should use local_pgdb, see vaul3/docker-compose.yaml``
 
 <img src="/resources/img.png">
 
