@@ -61,3 +61,29 @@
 <img src="/resources/img_12.png">
 
 ## After stopping the vault container these configs will be discarded!
+
+## Vault | mysql | credential rotation
+
+``I should grant these priveleges to the current user``
+
+<img src="/resources/vault_mysql_1.png">
+
+# From Java 17 to Java 8
+
+### Change these :
+
+#### spring version:
+
+    3.0.2 to 2.7.1
+
+#### java version :
+
+    17 to 1.8
+
+#### spring cloud vault config databases
+
+    4.0.0 TO 3.1.2
+
+#### imports 
+
+    jakarta to javax
